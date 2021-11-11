@@ -1,0 +1,6 @@
+Näita faili datas.json sisu tabeli kujul veebilehel. Tabelis ei näidata 
+id veergu.
+Leht kasutab CSS'i. Kas Bulma või Bootstrap on teie enda otsustada. Kas CSS failid on 
+lokaalses serveris või lingitud üle interneti on ka teie otsustada.
+
+Faili sisu näidatakse lehel kohe kui kasutaja läheb aadressile http://localhost:port/

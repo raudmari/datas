@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dates table</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="title">Andmetabel</h1>
+    <table class="table is-striped is-hoverable">
+      <thead>
+        <tr>
+          <th>Eesnimi</th>
+          <th>Perenimi</th>
+          <th>e-post</th>
+          <th>sündinud</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% datas.forEach((data) =>  { %>
+        <tr>
+          <td id="firstname"><%= data.firstname%></td>
+          <td id="lastname"><%= data.lastname%></td>
+          <td id="email"><%= data.email%></td>
+          <td id="birthdate"><%= data.birthdate%></td>
+        </tr>
+
+        <% }) %>
+      </tbody>
+
+    </table>
+  </div>
+
+</body>
+
+</html>
